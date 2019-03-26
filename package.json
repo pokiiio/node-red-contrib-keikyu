@@ -1,0 +1,20 @@
+{
+  "name": "node-red-contrib-keikyu",
+  "version": "1.0.0",
+  "description": "Node-RED node for KEIKYU.",
+  "main": "keikyu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokiiio/node-red-contrib-keikyu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokiiio/node-red-contrib-keikyu/issues"
+  },
+  "homepage": "https://github.com/pokiiio/node-red-contrib-keikyu#readme"
+}
