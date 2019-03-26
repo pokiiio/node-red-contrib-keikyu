@@ -20,5 +20,15 @@
   "dependencies": {
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
-  }
+  },
+  "node-red": {
+    "nodes": {
+      "keikyu": "keikyu.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "keikyu",
+    "pokiiio"
+  ]
 }
