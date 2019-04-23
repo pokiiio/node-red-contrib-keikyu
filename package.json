@@ -12,6 +12,7 @@
   },
   "keywords": [
     "node-red",
+    "train",
     "keikyu",
     "pokiiio"
   ],
@@ -21,13 +22,13 @@
     "url": "https://github.com/pokiiio/node-red-contrib-keikyu/issues"
   },
   "homepage": "https://github.com/pokiiio/node-red-contrib-keikyu#readme",
-  "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
-  },
   "node-red": {
     "nodes": {
       "keikyu": "keikyu.js"
     }
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }
