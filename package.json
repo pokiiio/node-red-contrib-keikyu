@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-keikyu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node-RED node for KEIKYU.",
   "main": "keikyu.js",
   "scripts": {
