@@ -17,6 +17,7 @@ module.exports = function (RED) {
                     node.send(msg);
                 })
                 .catch(function (error) {
+                    msg.payload = null;
                     node.send(msg);
                 });
         });
