@@ -11,7 +11,8 @@ module.exports = function (RED) {
 
                     info = info.split('<a href="https://unkou.keikyu.co.jp/" target=_blank>')[1];
                     info = info.split('</a>')[0];
-                    info = info.trim();
+                    info = info.split('<br/>'),join();
+                    info = info.split('\n'),join();
 
                     msg.payload = info;
                     node.send(msg);
